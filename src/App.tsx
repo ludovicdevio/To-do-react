@@ -1,4 +1,16 @@
 
+type Priority = "Urgente" | "Moyenne" | "Basse";
+
+type Todo = {
+  id: number;
+  text: string;
+  priority: Priority;
+}
+
+
+
+
+
 function App() {
 
 
@@ -8,5 +20,7 @@ function App() {
     </div>
   )
 }
+
+
 
 export default App
